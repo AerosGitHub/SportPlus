@@ -51,7 +51,7 @@ body {
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	border-radius: 0px 0px 45px 45px;
+	border-radius: 0 0 45px 45px;
 	background: rgba(164, 176, 163, 0.46);
 	color: #F8FFEC;
 	font-size: 24px;
@@ -61,10 +61,11 @@ body {
 
 .logo_pic {
 	display: block;
-	margin: 2px 0px 2px 59px;
+	margin: 2px 0 2px 59px;
 }
 
 .menu-button {
 	color: #F8FFEC;
 	font-size: 24px;
+	background: none;
 }
