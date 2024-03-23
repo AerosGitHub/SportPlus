@@ -49,11 +49,17 @@ body {
 	display: inline-block;
 	position: relative;
 	font-size: 60px;
+	font-family: "Montserrat", sans-serif;
 	left: 10px;
 	top: 42px;
 	color: #F8FFEC;
-	-webkit-text-stroke: 2px #151D0E;
+	text-shadow:
+			3px 0 2px #151D0E, /*right */
+			0 3px 2px #151D0E, /*top */
+			-3px 0 2px #151D0E, /*left */
+			0 -3px 2px #151D0E; /*bottom */
 }
+
 .menu {
 	display: flex;
 	height: 100px;
@@ -79,3 +85,29 @@ body {
 	font-size: 24px;
 	background: none;
 }
+
+footer{
+	background-color: #151D0E;
+	width: 1920px;
+	height: 277px;
+	border-radius: 45px 45px 0 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contact-info{
+	color: #F8FFEC;
+	font-size: 24px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.contact-info-block{
+	width: 779px;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	margin-right: 76px;
+}
+
+
